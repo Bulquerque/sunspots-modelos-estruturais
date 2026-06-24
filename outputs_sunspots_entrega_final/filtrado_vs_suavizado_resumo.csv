@@ -1,0 +1,4 @@
+modelo,estado,diferenca_media_abs,diferenca_mediana_abs,diferenca_max_abs
+M3_baseline_tendencia_local_H1,level,6.7861833769932405,5.231344015880417,59.09081293358807
+M5_custom_BoxCox_ciclo_amortecido,level,2.1666175808210517,1.6019901193593578,9.839274848469273
+M6_tendencia_mais_ciclo_usual,level,9.299671210721405,7.232824330739557,98.88632675398586

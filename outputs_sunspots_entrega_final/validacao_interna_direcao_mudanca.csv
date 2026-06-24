@@ -1,0 +1,4 @@
+modelo,n_comparacoes,acuracia_direcional,corr_delta_real_previsto
+M6_tendencia_mais_ciclo_usual,32,0.75,0.639160463495927
+M3_tendencia_local_H1,32,0.6875,0.627162360172386
+M5_BoxCox_ciclo_amortecido,32,0.6875,0.6530860627178179

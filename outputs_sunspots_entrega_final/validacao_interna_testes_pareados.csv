@@ -1,0 +1,3 @@
+comparacao,n,media_MSE_baseline_menos_modelo,media_MAE_baseline_menos_modelo,t_pvalue_unilateral_MSE,wilcoxon_pvalue_unilateral_MAE,bootstrap_p05_MSE_diff,bootstrap_p50_MSE_diff,bootstrap_p95_MSE_diff,bootstrap_prob_modelo_melhor_MSE
+M3 baseline vs M5 proposto,33,59.98638927575894,0.688858293936487,0.05993923352617105,0.34247963898815215,29.232210243120086,68.80021215980796,110.6755565631423,1.0
+M6 ciclo usual vs M5 proposto,33,243.781972321515,3.8437408798665764,0.004703084846585078,0.013956316863186657,156.31222968240405,278.46631977571576,398.1752657752345,1.0

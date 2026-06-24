@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+__pycache__/
+.pytest_cache/
+.venv/
+outputs_sunspots_entrega_final.zip
