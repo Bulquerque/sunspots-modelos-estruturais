@@ -29,18 +29,18 @@ Na validacao final 1976-2008, o melhor desempenho agregado foi do M5:
 
 | modelo | R2_OOS | RMSE | MAE | Bias |
 |---|---:|---:|---:|---:|
-| M5 Box-Cox + ciclo amortecido | 0.9029 | 17.3470 | 13.2224 | -0.2669 |
-| M1 nivel local + H1 | 0.8918 | 18.3086 | 13.8989 | -0.7598 |
-| M3 tendencia local + H1 | 0.8911 | 18.3694 | 13.9340 | -1.2606 |
-| M6 tendencia + ciclo usual | 0.8448 | 21.9272 | 16.3864 | -1.4741 |
+| M5 Box-Cox + ciclo amortecido | 0.8940 | 24.3695 | 18.6328 | 0.0265 |
+| M1 nivel local + H1 | 0.8820 | 25.7145 | 19.6311 | -0.6304 |
+| M3 tendencia local + H1 | 0.8811 | 25.8055 | 19.7069 | -1.3041 |
+| M6 tendencia + ciclo usual | 0.8319 | 30.6857 | 22.8619 | -1.6644 |
 
-Na ablação, o modelo completo M5 reduziu o RMSE em 1.0224 ponto contra o baseline M3, ganho relativo de 5.57%.
+Na ablação, o modelo completo M5 reduziu o RMSE em 1.4360 ponto contra o baseline M3, ganho relativo de 5.56%.
 
 ## Leitura critica
 
 A EDA indica ciclo dominante proximo de 11 anos, assimetria e instabilidade de escala. Isso justifica testar tanto harmonicos quanto transformacao Box-Cox e ciclo estocastico amortecido.
 
-Os resultados favorecem o M5 em RMSE, MAE, bias e robustez por janelas finais. Ainda assim, a conclusao deve ser cautelosa: a validacao final tem 33 observacoes, e testes pareados em amostras pequenas podem ser sensiveis. A analise de residuos mostra que o M5 tem Ljung-Box p-value de 0.2188 no teste final, enquanto o M6 ainda deixa autocorrelacao relevante no residuo.
+Os resultados favorecem o M5 em RMSE, MAE, bias e robustez por janelas finais. Ainda assim, a conclusao deve ser cautelosa: a validacao final tem 33 observacoes, e testes pareados em amostras pequenas podem ser sensiveis. A analise de residuos mostra que o M5 tem Ljung-Box p-value de 0.3700 no teste final, enquanto o M6 ainda deixa autocorrelacao relevante no residuo (p-value de 0.0076).
 
 ## Artefatos gerados
 
